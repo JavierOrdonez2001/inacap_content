@@ -18,4 +18,7 @@ def nuevaFuncion():
 def nuevoCambio():
     return
 
+def nuevaCambio2():
+    return
+
 
