@@ -20,31 +20,3 @@
 
 
 
-const year = 2022
-const holidays = ['01/06'c, '04/01', '12/25'] 
-
-
-
-
-function countHours(year, holidays) {
-    let monthDay = []
-
-    for(let i = 0;i<holidays; i++){
-
-        
-        monthDay.push(holidays[i])
-
-        
-    }
-
-    const date = new Date(`${year}-`)
-
-
-  
-    return 0
-}
-
-
-countHours(year, holidays)
-  
-
