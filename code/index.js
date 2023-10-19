@@ -20,3 +20,40 @@
 
 
 
+
+
+
+
+//crea una funcion para invertir un string
+
+const inverse = (string) => {
+    stringReverse = ''
+    for(let i = string.length-1;i>=0;i--){
+        stringReverse += string[i]
+    }
+    return stringReverse
+}
+
+// crea una funcion que convierta de deciaml a binario
+
+const binario = (numero) => {
+    let numeroBinario = []
+    
+    while (numero > 0){
+        const residuo = numero % 2
+        numeroBinario.push(residuo)
+        numero = Math.floor(numero/2)
+
+    }
+
+
+    //invertir numero
+    let numeroBinarioInvertido = []
+    for(let i = numeroBinario.length-1;i>=0;i--){
+        numeroBinarioInvertido.push(numeroBinario[i])
+
+    }
+    return numeroBinarioInvertido
+
+}
+
